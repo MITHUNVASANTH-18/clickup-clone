@@ -1,0 +1,26 @@
+.card-main-div {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-text-field-div {
+    flex-direction: column;
+}
+
+.signIn-button {
+    margin-top: 10px !important;
+}
+
+.login-forgot-password {
+    color: var(--primary-text-blue);
+}
+
+.login_register_text {
+    color: var(--primary-text-blue);
+}
+
+.signup_register_text {
+    color: var(--primary-text-blue);
+}

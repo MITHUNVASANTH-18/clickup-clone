@@ -1,0 +1,19 @@
+.date-picker-export{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.selected-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        padding-right: 15px;
+    }
+}
+.button-container-export{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}

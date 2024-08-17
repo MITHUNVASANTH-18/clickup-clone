@@ -1,0 +1,276 @@
+.home-page-main-div {
+    height: 100vh;
+}
+
+.home-page-first-main-div {
+    width: 15%;
+    border-right: 1px solid var(--light-gray);
+}
+
+.home-page-second-main-div {
+    width: 85%;
+}
+
+.create-space-icon {
+    color: #949ba5;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-modal-div {
+    justify-content: center;
+    align-items: center;
+    bottom: 18% !important;
+    top: 18% !important;
+}
+
+.space-creat-members {
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.space-creat-status {
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.space-text-field-div {
+    flex-direction: column;
+}
+
+.space-modal-box-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--white);
+    /* width:50%; */
+}
+.space-modal-box-users {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+    width:50%;
+    height: 50%;
+}
+.space-modal-box-edit {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+    width:50%;
+    height: 50%;
+}
+
+.space-text-field-form {
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-space-button {
+    margin-top: 15px !important;
+    width: 70%;
+}
+
+.space-names-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 10px 10px 10px;
+}
+
+.create-space-icon-div {
+    border-bottom: 1px solid var(--light-gray);
+    padding: 10px 10px 5px;
+}
+
+.company-avatar {
+    background: green !important;
+    color: lightgreen !important;
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+
+.company-name-avatar-div {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px 5px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+.company-name {
+    color: var(--Black) !important;
+    font-weight: 600 !important;
+}
+
+.space-avatar {
+    width: 20px !important;
+    height: 18px !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+    color: var(--Black) !important;
+}
+
+.space-name-common-a-tag{
+    align-items: center;
+    column-gap: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.active-tab {
+    background: #e1e7ff;
+    border-radius: 5px;
+}
+
+.active-tab:hover {
+    background: #e1e7ff !important;
+    border-radius: 5px;
+}
+
+.space-name-common-div {
+    padding-bottom: 4px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    width: 120px !important;
+}
+
+.home-page-active-space-name {
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 5px;
+}
+
+.active-space-name {
+    padding-bottom: 5px;
+}
+
+.active-space-avatar {
+    width: 20px !important;
+    height: 18px !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+
+.active-space-name-task-create-div {
+    padding: 13px 20px 12px;
+    border-bottom: 1px solid var(--light-gray);
+    justify-content: space-between;
+}
+
+.create-task-button {
+    font-size: 10px !important;
+    padding: 4px 10px !important;
+    font-weight: 600 !important;
+}
+
+.export-task-button {
+    font-size: 10px !important;
+    padding: 4px 10px !important;
+    font-weight: 600 !important;
+}
+
+.home-page-status-heading-div {
+    padding: 20px 20px 12px !important;
+    column-gap: 10px;
+}
+
+.home-page-status-heading-card {
+    height: 10% !important;
+    border-radius: 5px !important;
+    margin-bottom: 30px !important;
+}
+
+.home-page-status-heading-content {
+    padding: 0 !important;
+}
+
+.home-page-status-heading-name {
+    padding: 8px !important;
+}
+
+.space-name-edit {
+    align-items: center;
+    color: gray;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.edit-icon{
+    width: 0.6em !important;
+    color: gray
+}
+
+.task-details-card-div {
+    padding: 20px 20px 5px !important;
+}
+
+.task-details-card-content-div {
+    margin: 7px;
+}
+
+.tast-details-card-content-title {
+    column-gap: 7px;
+    margin: 5px 0px;
+    justify-content: space-between;
+}
+
+.task-details-card-content-title-avatar {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+.empty-div {
+    height: 15px;
+}
+
+.active-tab .space-name-common-a-tag {
+    color: #4e68da;
+}
+
+.active-tab .edit-icon {
+    color: #4e68da;
+}
+
+.menu-item-style .MuiMenu-paper {
+    left: 165px !important;
+}
+
+.space-name-edit:hover {
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
+.space-name-div .MuiInputBase-root {
+    height: 50px !important;
+}
+
+.space-description-div .MuiInputBase-root {
+    height: 50px !important;
+}
+
+.space-creat-members .MuiInputBase-root {
+    height: 50px !important;
+}
+
+.task-import-export-create-div {
+    column-gap: 10px;
+} 
+
+.export-task-button .MuiSvgIcon-root {
+    height: 0.7em !important;
+}
+
+.task-import-export-div {
+    column-gap: 10px;
+}
